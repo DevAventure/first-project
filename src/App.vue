@@ -3,19 +3,6 @@
     <router-view></router-view>
   </div>
 </template>
-
-<script>
-  // import firebase from 'firebase'
-  export default {
-    name: 'app'
-    // created () {
-    //   firebase.auth().onAuthStateChanged((response) => {
-    //     console.log(response)
-    //   })
-    // }
-}
-</script>
-
 <style>
 html, body, #app {
   height: 100%;

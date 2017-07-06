@@ -23,10 +23,10 @@ const router = new Router({
         {
           path: '/profile',
           name: 'profile',
-          component: Profile,
-          meta: { requiresAuth: true }
+          component: Profile
         }
-      ]
+      ],
+      meta: { requiresAuth: true }
     },
     { path: '/signin', name: 'signIn', component: SignIn }
     // { path: '/profile', name: 'profile', component: Profile, meta: { requiresAuth: true } }

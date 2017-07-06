@@ -1,6 +1,6 @@
 <template>
  <div class="container is-fluid signin-container">
-    <button @click="signIn" class="button is-outlined">Sign In</button>
+    <button @click="signIn" class="button is-outlined is-primary">Sign In</button>
   </div>
 </template>
 <script>
