@@ -13,7 +13,9 @@ new Vue({
   el: '#app',
   router,
   firebase: {
-    database: firebase.database.ref('user')
+    user: firebase.database.ref('user'),
+    image: firebase.database.ref('image')
+    // myImage: firebase.database.ref('image')
   },
   render: h => h(App)
 })
